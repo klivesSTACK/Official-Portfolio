@@ -35,8 +35,6 @@ const blurHeader = ()=>{
 }
 window.addEventListener('scroll', blurHeader)
  
-
-console.log('hello')
 // =============== EMAIL JS ===============
 const   contactForm = document.getElementById('contact-form'),
         contactMessage = document.getElementById('contact-message')
@@ -98,7 +96,6 @@ const scrollActive = () =>{
 window.addEventListener('scroll', scrollActive)
 
 // =============== SCROLL REVEAL ANIMATION ===============
-
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
